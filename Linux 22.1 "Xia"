@@ -1,0 +1,15 @@
+# Linux22.1
+Gostaria de relatar minha grande luta para instalar o Cisco Packet Tracer.
+
+Fiquei quase 1 (hum) mês para descobrir que para o Linux 22.1, possui uma dependência que você precisa buscar em um site paralelo ao Cisco. Gostaria de saber o passo a passo? vem comigo.
+
+Tenho um PC humilde, porém de guerrra, sua descrição:
+
+CCE INFO WIN
+2GB Ram
+320 GB HD
+com windows7 (o qual troquei com muito orgulho para um Linux Mint 22 "Wilma" e a pouco tempo troquei para a versão 22.1 "Xia")
+CPU: Intel Atom N455 (2) @ 1.667GHz 
+GPU: Intel Atom Processor D4xx/D5xx/N4xx/N5xx
+
+OBS: Sei que não é uma das melhores máquinas mais me atende bem e considero este pequeno uma "Máquina de guerra".
