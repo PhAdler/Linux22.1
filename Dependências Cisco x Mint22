@@ -1,4 +1,4 @@
-Se Você utiliza o Cisco Packet Tracer em seus projetos de Redes e tem em sua máquina instalado o Linux Ubuntu ou qualquer derivado do 24.04, que é o meu caso, o Linux Mint22.1 "Xia". Faça o seguinte:
+Se Você utiliza o Cisco Packet Tracer em seus projetos de Redes e tem em sua máquina instalado o Linux Ubuntu ou qualquer derivado do Ubuntu 24.04, que é o meu caso, o Linux Mint22.1 "Xia". Faça o seguinte:
 
 1) Faça o Download do Cisco Labs no Site:
 
@@ -10,4 +10,18 @@ https://www.netacad.com/resources/lab-downloads?courseLang=en-US
    $ sudo apt update
    $ sudo apt install gdebi
 
-3) 
+3) Vá até o site: https://www.configserverfirewall.com/ubuntu-linux/cisco-packet-tracer-linux-mint-22/
+
+e Faça o Download da dependência libgl1-mesa-glx:
+
+OBS: 
+
+Você poderá fazer o download pelos pacotes:
+
+wget caso não o tenha: 
+
+$ sudo apt install wget 
+
+https://archive.ubuntu.com/ubuntu/pool/universe/m/mesa/libgl1-mesa-glx_23.0.4-0ubuntu1~22.04.1_amd64.deb
+
+sudo gdebi libgl1-mesa-glx_23.0.4-0ubuntu1~22.04.1_amd64.deb
