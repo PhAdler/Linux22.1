@@ -4,6 +4,9 @@ Se Você utiliza o Cisco Packet Tracer em seus projetos de Redes e tem em sua m�
 
 https://www.netacad.com/resources/lab-downloads?courseLang=en-US
 
+e faça o download versão 
+Packet Tracer 8.2.2 Ubuntu 64 bit 
+ 
 2) baixe o instalador de pacotes:
    
         No terminal
@@ -20,8 +23,17 @@ Você poderá fazer o download pelos pacotes:
 
 wget caso não o tenha: 
 
-$ sudo apt install wget 
+$ sudo apt install wget  https://archive.ubuntu.com/ubuntu/pool/universe/m/mesa/libgl1-mesa-glx_23.0.4-0ubuntu1~22.04.1_amd64.deb
 
-https://archive.ubuntu.com/ubuntu/pool/universe/m/mesa/libgl1-mesa-glx_23.0.4-0ubuntu1~22.04.1_amd64.deb
+OU,
 
 sudo gdebi libgl1-mesa-glx_23.0.4-0ubuntu1~22.04.1_amd64.deb
+
+4) Finalizado:
+  
+No terminal:
+
+$ sudo gdebi Packet_Tracer822_amd64_signed.deb
+$ sudo e a dependência em "wget" ou "GDebi"
+ 
+abrirá uma página com o site da Netcad com dois quadrados para clicar, isto ocorrerá apenas quando você abrir o Packet Labs pela primeira vez então vc deve clicar no que diz "Skill for ALL", Logo abrirá o site.
